@@ -1,5 +1,6 @@
 {
   "name": "reactfirst",
+  "homepage": "https://sn20233.github.io/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -63,7 +64,8 @@
   "devDependencies": {
     "@babel/plugin-syntax-top-level-await": "^7.14.5",
     "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0"
+    "babel-preset-env": "^1.7.0",
+    "gh-pages": "^5.0.0"
   },
   "babel": {
     "presets": [
@@ -72,5 +74,7 @@
     "plugins": [
       "@babel/plugin-syntax-top-level-await"
     ]
-  }
+  },
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
 }
