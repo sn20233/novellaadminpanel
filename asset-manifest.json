@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/novellaadminpanel/static/css/main.79161074.css",
+    "main.js": "/novellaadminpanel/static/js/main.df7b8b5a.js",
+    "index.html": "/novellaadminpanel/index.html",
+    "main.79161074.css.map": "/novellaadminpanel/static/css/main.79161074.css.map",
+    "main.df7b8b5a.js.map": "/novellaadminpanel/static/js/main.df7b8b5a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79161074.css",
+    "static/js/main.df7b8b5a.js"
+  ]
+}
